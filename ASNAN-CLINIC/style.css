@@ -1,0 +1,142 @@
+/* Global styles */
+
+body {
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Navigation styles */
+
+
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #eee;
+    border-radius: 30px;
+}
+
+.active {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/* Page-specific styles */
+
+.home-banner {
+    background-image: url('https://images.unsplash.com/photo-1625492852499-191e8a883d06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNjYxMjV8MHwxfHNlYXJjaHw0fHxkZW50aXR5JTIwY2xpbmljfGVufDB8fHx8MTYxNzEwMDA5Nw&ixlib=rb-1.2.1&q=80&w=1080');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.home-banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home-banner p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.services-form {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.services-form h2 {
+    margin-bottom: 2rem;
+}
+
+.services-form label {
+    font-weight: 600;
+}
+
+.services-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+.services-form input[type="submit"]:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+
+.contact-form {
+    margin-top: 3rem;
+}
+
+.contact-form h2 {
+    margin-bottom: 2rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+
+.carousel-container {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0 auto;
+}
